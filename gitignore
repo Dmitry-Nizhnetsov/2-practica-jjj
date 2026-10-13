@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# PyCharm
+.idea/
+*.iml
+
+# Логи
+*.log
+*.tmp
+
+# Выходные файлы
+output/
+*.svg
+*.png
+*.dot
