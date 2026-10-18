@@ -55,7 +55,7 @@ def parse_args(argv: list[str] | None = None) -> Config:
 
     args = parser.parse_args(argv)
 
-    # Валидация
+
     if args.test_mode:
         if not args.test_repo:
             raise ConfigError(
